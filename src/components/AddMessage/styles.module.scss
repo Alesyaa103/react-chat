@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 15%;
+  justify-content: space-between;
+  
+  &__field {
+    resize: none;
+    width: 85%;
+    background-color: #f6f7ff;
+    border-radius: 6px;
+    border: 1px solid #090b3e;
+    padding: 10px;
+    outline: none;
+    height: 70px;
+  }
+  &__button {
+    width: 10%;
+    min-width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid #090b3e;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background-color: #f6f7ff;
+    text-transform: uppercase;
+    color: #090b3e;
+  }
+}
